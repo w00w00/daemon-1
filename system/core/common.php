@@ -10,8 +10,8 @@
 
 /* Get Daemon main instance
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-function &get_instance() {
-    return Daemon::get_instance();
+function &getInstance() {
+    return Daemon::getInstance();
 }
 
 

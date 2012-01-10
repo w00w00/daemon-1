@@ -12,6 +12,8 @@ final class Daemon {
 
     private static $instance;
 
+    /* Constructor
+     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     public function __construct() {
         self::$instance = & $this;
 
@@ -22,12 +24,14 @@ final class Daemon {
 
     /* Get instance
      * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-    public static function &get_instance() {
+    public static function &getInstance() {
         return self::$instance;
     }
 
 
 
+    /* Destructor
+     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     public function __destruct() {
         echo 'Project Daemon destructor <br />';
     }
