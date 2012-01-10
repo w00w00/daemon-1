@@ -1,9 +1,9 @@
 <?php
 /* Project Daemon
  *
- * name: [daemon]/bootstrap.php
+ * name: [system]/daemon.php
  * version: 0.0.001
- * info: boot file
+ * info: bootstrap file
  *
  * Copyright (c) 2012, Anatoliy Syernyi aka SolomoN
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */

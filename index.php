@@ -10,6 +10,6 @@
 
 error_reporting(E_ALL);
 
-require_once('./daemon/bootstrap.php');
+require_once('./system/daemon.php');
 
 ?>
