@@ -8,8 +8,13 @@
  * Copyright (c) 2012, Anatoliy Syernyi aka SolomoN
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+/* Get Daemon main instance
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function &get_instance() {
     return Daemon::get_instance();
 }
 
+
+/*
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 ?>

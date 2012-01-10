@@ -18,9 +18,15 @@ final class Daemon {
         echo 'Project Daemon constructor <br />';
     }
 
+
+
+    /* Get instance
+     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     public static function &get_instance() {
         return self::$instance;
     }
+
+
 
     public function __destruct() {
         echo 'Project Daemon destructor <br />';
@@ -28,4 +34,8 @@ final class Daemon {
 
 }
 
+
+
+/*
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 ?>

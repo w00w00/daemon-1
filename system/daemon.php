@@ -7,12 +7,25 @@
  *
  * Copyright (c) 2012, Anatoliy Syernyi aka SolomoN
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-include_once('./temp/init.php');
 
-include_once('./system/core/common.php');
+include_once(ROOT_PATH.'temp/init.php');
 
-include_once('./system/core/kernel.php');
 
+
+/* Includes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+include_once(SYSTEM_PATH.'core/common.php');
+
+include_once(SYSTEM_PATH.'core/kernel.php');
+
+
+
+/* Start Daemon project
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 $daemon = new Daemon();
 
+
+
+/*
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 ?>
