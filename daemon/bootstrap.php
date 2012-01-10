@@ -1,15 +1,13 @@
 <?php
 /* Project Daemon
  *
- * name: index.php
+ * name: [daemon]/bootstrap.php
  * version: 0.0.001
- * info: main system file
+ * info: boot file
  *
  * Copyright (c) 2012, Anatoliy Syernyi aka SolomoN
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-error_reporting(E_ALL);
-
-require_once('./daemon/bootstrap.php');
+echo 'Project Daemon';
 
 ?>
