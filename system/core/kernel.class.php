@@ -1,9 +1,9 @@
 <?php
 /* Project Daemon
  *
- * name: system/daemon.php
+ * name: system/core/kernel.class.php
  * version: 0.0.001
- * info: bootstrap file
+ * info:
  *
  * Copyright (c) 2012, Anatoliy Syernyi aka SolomoN
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
